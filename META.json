@@ -1,0 +1,37 @@
+{
+   "resources" : {
+      "homepage" : "http://search.cpan.org/dist/emacs-pod-cperl-mode",
+      "repository" : {
+         "web" : "http://github.com/renormalist/emacs-pod-cperl-mode",
+         "url" : "git://github.com/renormalist/emacs-pod-cperl-mode.git",
+         "type" : "git"
+      },
+      "bugtracker" : {
+         "web" : "http://rt.cpan.org/Public/Dist/Display.html?Name=emacs-pod-cperl-mode",
+         "mailto" : "bug-emacs-pod-cperl-mode@rt.cpan.org"
+      }
+   },
+   "meta-spec" : {
+      "version" : 2
+   },
+   "generated_by" : "An inappropriate amount of Emacs and Perl",
+   "version" : "0.01",
+   "name" : "emacs-pod-cperl-mode",
+   "author" : [
+      "Steffen Schwigon <ss5@renormalist.net>"
+   ],
+   "dynamic_config" : "0",
+   "license" : [
+      "gpl_3"
+   ],
+   "description" : "Emacs multimode for cperl in pod verbatim blocks",
+   "keywords" : [
+      "emacs",
+      "multimode",
+      "perl",
+      "cperl",
+      "pod"
+   ],
+   "abstract" : "Emacs multimode for cperl in pod verbatim blocks",
+   "release_status" : "unstable"
+}

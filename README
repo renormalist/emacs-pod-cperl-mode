@@ -1,0 +1,37 @@
+pod-cperl-mode.el - Emacs multimode for cperl in pod verbatim blocks
+
+--------------------------------------------------------------------
+
+Usage:
+
+Have those modes available in your load path:
+
+  pod-mode.el
+  cperl-mode.el
+  multi-mode.el
+
+Now additionally put 
+
+  pod-cperl-mode.el
+
+into your load-path and the following into your ~/.emacs:
+
+  (autoload 'pod-cperl-mode "pod-cperl-mode")
+
+To associate pod-cperl-mode with .pod files add 
+the following into your ~/.emacs
+
+  (add-to-list 'auto-mode-alist '("\\.pod$" . pod-cperl-mode))
+
+  => You probably already have a suffix association for plain pod
+     mode, deactivate that in favour of pod-cperl-mode.
+
+--------------------------------------------------------------------
+
+Author:  Steffen Schwigon <ss5@renormalist.net>
+License: GPL 3
+Tested:  i386-linux       with GNU Emacs 23
+
+This mode is frivolously stolen from haskell-latex-mode.
+
+I'm interested in comments/enhancements/bugfixes.
