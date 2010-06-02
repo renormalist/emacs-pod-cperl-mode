@@ -115,7 +115,7 @@ each following level 9 more learners for each category.
 That would result in 100.000.000 (100 Millions) categories or learners
 at the last level. In real live there are only about 8000 categories
 used so the last level has maximal those 8000 categories and each
-level above some less. 
+level above some less.
 
 =cut
 

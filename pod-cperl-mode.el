@@ -1,6 +1,6 @@
-;;; pod-cperl-mode.el --- Editing Perl inside POD verbatim blocks
+;;; pod-cperl-mode.el --- Multimode for cperl in pod verbatim blocks
 
-;; Copyright (C) 2003, 2007, 2009  Free Software Foundation, Inc.
+;; Copyright (C) 2010 Steffen Schwigon
 
 ;; Author: Steffen Schwigon
 ;; Frivolously stolen from haskell-latex-mode. 
@@ -36,10 +36,12 @@
 ;; 
 ;;   pod-mode.el
 ;;   cperl-mode.el
-;;   multi-mode.el
+;;
+;; and each one configured as usual.
 ;;
 ;; Now additionally put 
 ;;
+;;   multi-mode.el       (http://www.loveshack.ukfsn.org/emacs/multi-mode.el)
 ;;   pod-cperl-mode.el
 ;;
 ;; into your load-path and the following into your ~/.emacs:
