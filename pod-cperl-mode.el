@@ -8,7 +8,6 @@
 
 ;; Keywords: languages, wp
 ;; Created: 2010
-;; Version: 0.01
 
 ;;; Keywords: emacs multimode perl cperl pod
 ;;; X-URL: http://search.cpan.org/~schwigon/emacs-cperl-pod-mode/
@@ -57,6 +56,10 @@
 ;;      mode, deactivate that in favour of pod-cperl-mode.
 
 ;;; Code:
+
+;; Version: 0.01
+(defvar pod-cperl-version "0.01"
+  "Version of POD mode")
 
 (require 'pod-mode)
 (require 'cperl-mode)
