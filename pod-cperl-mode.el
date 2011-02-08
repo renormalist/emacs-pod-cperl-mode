@@ -104,7 +104,7 @@
                       end (if (re-search-forward "^[ ]" nil t)
                               (progn (beginning-of-line) (backward-char) (point))
                             (point-max)))))))
-          ;;(message (concat info " " (prin1-to-string mode) ": " (prin1-to-string start) ".." (prin1-to-string end)))
+          (message (concat info " " (prin1-to-string mode) ": " (prin1-to-string start) ".." (prin1-to-string end)))
           (multi-make-list mode start end)))))
 
 ;;;###autoload
